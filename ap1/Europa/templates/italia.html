@@ -1,22 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Culinária Italiana</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.home{
+            text-align: center;
+            color: brown;
+        }
+        .bandeira{
+            text-align: center;
+        }
+
+	</style>
 </head>
 <body>
-    <header>
-
+	<header>
         <button class="europa">
             <a href="{% url 'europa' %}">página inicial</a>
         </button>
 
-        <h1>
-            Itália
-        </h1>
-    </header>
-    
-</body>
-</html>
+		<h1 class="home">Itália</h1>
+        <img class="bandeira" src="https://static.todamateria.com.br/upload/ba/nd/bandeira-da-italia-og.jpg" alt="" width="300px">
+        <h1>Culinária Italiana</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#pratos">Pratos</a></li>
+				<li><a href="#receitas">Receitas</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="sobre">
+			<h2>Sobre a Culinária Italiana</h2>
+			<p>A culinária italiana é conhecida por sua simplicidade e sabor autêntico. Os italianos dão muita importância à qualidade dos ingredientes e ao processo de preparação dos alimentos. A culinária italiana é rica em massas, pizzas, molhos, queijos e vinhos.</p>
+		</section>
+
+		<section id="pratos">
+			<h2>Pratos Populares</h2>
+			<ul>
+				<li>Pizza Margherita</li>
+				<li>Linguine alla Carbonara</li>
+				<li>Lasanha alla Bolognese</li>
+				<li>Bruschetta</li>
+				<li>Tiramisù</li>
+			</ul>
+		</section>
+
+		<section id="receitas">
+			<h2>Receitas</h2>
+			<ol>
+				<li>
+					<h3>Pizza Margherita</h3>
+                    <img src="http://www.saboresajinomoto.com.br/uploads/images/recipes/pizza-marguerita.jpg" alt="" width="500px">
+					<p>Ingredientes:</p>
+					<ul>
+						<li>Massa de pizza</li>
+						<li>Molho de tomate</li>
+						<li>Queijo mussarela</li>
+						<li>Tomate em rodelas</li>
+						<li>Manjericão fresco</li>
+						<li>Azeite de oliva</li>
+						<li>Sal</li>
+					</ul>
+					<p>Modo de preparo:</p>
+					<ol>
+						<li>Pré-aqueça o forno a 220°C.</li>
+						<li>Estique a massa de pizza e coloque-a em uma assadeira.</li>
+						<li>Coloque o molho de tomate sobre a massa, deixando um espaço livre nas bordas.</li>
+						<li>Cubra o molho de tomate com queijo mussarela.</li>
+						<li>Coloque as rodelas de tomate sobre o queijo mussarela.</li>
+						<li>Tempere com sal e regue com azeite de oliva.</li>
+						<li>Asse no forno por cerca de 10-12 minutos, ou até que a crosta esteja dourada e o queijo derretido.</li>
+						<li>Retire do forno e cubra com folhas de man

@@ -1,36 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Culinária Francesa</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	
+	</style>
 </head>
 <body>
-    <header>
+	<header>
+
         <button class="europa">
             <a href="{% url 'europa' %}">página inicial</a>
         </button>
-        <h1 class="name">França</h1>
-        <img src="https://cdn.icon-icons.com/icons2/1694/PNG/512/frfranceflag_111874.png" alt="">
-        <h3 class="init">Conheça a culinaria francesa.</h3>
+
+        <h1>França</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" alt="" width="300">
+
         
-
-
-
-    <style>
-        .name{
-            text-align: center;
-            color: brown;
-        }
-        .init{
-            text-align: center;
-        }
-
-    </style>   
+		<h1 >Culinária Francesa</h1>
+		<nav>
+			<ul>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#pratos">Pratos</a></li>
+				<li><a href="#receitas">Receitas</a></li>
+			</ul>
+		</nav>
     
-    </header>
-    
-    
-</body>
-</html>
+            
+	</header>
+
+	<main>
+		<section id="sobre">
+			<h2>Sobre a Culinária Francesa</h2>
+			<p>A culinária francesa é conhecida por sua sofisticação e refinamento, bem como pela grande variedade de pratos e ingredientes. Com influências de toda a Europa, a culinária francesa é considerada uma das melhores do mundo.</p>
+		</section>
+
+		<section id="pratos">
+			<h2>Pratos Populares</h2>
+			<ul>
+				<li>Coq au Vin</li>
+				<li>Boeuf Bourguignon</li>
+				<li>Ratatouille</li>
+				<li>Cassoulet</li>
+				<li>Quiche Lorraine</li>
+			</ul>
+            
+		</section>
+
+		<section id="receitas">
+			<h2>Receitas</h2>
+			<ol>
+				<li>
+					<h3>Coq au Vin</h3>
+                    <img src="https://truffle-assets.imgix.net/024f88e7-coq-au-vin_l_thumb.jpg" alt="" width="500px">
+					<p>Ingredientes:</p>
+					<ul>
+						<li>1 frango inteiro</li>
+						<li>200g de bacon</li>
+						<li>1 cebola</li>
+						<li>2 dentes de alho</li>
+						<li>2 cenouras</li>
+						<li>2 ramos de salsão</li>
+						<li>1 garrafa de vinho tinto</li>
+						<li>1 ramo de tomilho</li>
+						<li>Sal e pimenta a gosto</li>
+					</ul>
+                    
+					<p>Modo de preparo:</p>
+					<ol>
+						<li>Corte o frango em pedaços e tempere com sal e pimenta.</li>
+						<li>Frite o bacon em uma panela grande até ficar crocante.</li>
+						<li>Retire o bacon e reserve.</li>
+						<li>Na mesma panela, doure os pedaços de frango em fogo médio-alto.</li>
+						<li>Retire o frango da panela e reserve.</li>
+						<li>Adicione a cebola, o alho, as cenouras e o salsão à panela e refogue até ficarem macios.</li>
+						<li>Adicione o vinho tinto e o tomilho à panela e deixe ferver
+
